@@ -1,8 +1,8 @@
 .text-center, .box, .button {
   text-align: center; }
 
-header img {
-  background-image: url(./images/shinkansen.jpg);
+header {
+  background-image: url(../images/shinkansen.jpg);
   width: 100%;
   height: 500px;
   background-size: cover;
@@ -18,8 +18,8 @@ header .img {
   height: 500px; }
 
 @media (max-width: 768px) {
-  header img {
-    background-image: url(./images/shinkansen.jpg);
+  header {
+    background-image: url(../images/shinkansen.jpg);
     width: 100%;
     height: 250px;
     background-size: cover;
